@@ -1,0 +1,181 @@
+html,
+body {
+  background-color: #f4e8f9;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+form {
+  background-color: #f4e8f9;
+}
+button {
+  width: 260px;
+  height: 36px;
+  border: transparent;
+  border-radius: 2px;
+  margin-top: 13px;
+  font-size: 14px;
+  letter-spacing: 0.0357143em;
+}
+input {
+  font-size: 14px;
+  padding-left: 20px;
+  border-radius: 3px;
+  background-color: #bdbdbdc2;
+  width: 80%;
+  height: 36px;
+  background: #f2f2f2;
+  border: 0.5px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin: 10px;
+}
+input:hover {
+  box-shadow: 0.5px 0.5px 8px 4px #c796da;
+}
+input::placeholder {
+  color: #c5c0c0;
+}
+input:focus {
+  border: 1.5px solid #c796da;
+  outline: none;
+}
+
+hr {
+  width: 112px;
+  height: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 7px;
+  border-color: #f2f2f27a;
+}
+.orline::before,
+.orline::after {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid #e6dfdf;
+  width: 30%;
+  margin: 0 1rem;
+  transform: translateY(-3px);
+}
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+
+  width: 34%;
+  text-align: center;
+  padding: 10px;
+  background-color: #fafafa;
+  box-shadow: 0.5px 0.5px 8px 4px #c6c6cc83;
+  border-radius: 4px;
+}
+
+.container #title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 28px;
+  color: #4f4f4f;
+}
+#btn1 {
+  background-color: rgba(187, 107, 217, 0.25);
+  color: #828282;
+  font-weight: bold;
+}
+
+#btn1:hover {
+  box-shadow: 0.5px 0.5px 8px 4px #7e469493;
+}
+#btn1:focus {
+  border: 1.5px solid #c796da;
+  outline: none;
+}
+
+#btn2 {
+  background: #bb6bd9;
+  color: white;
+  font-weight: 550;
+}
+#btn2:hover {
+  box-shadow: 0.5px 0.5px 8px 4px #7e469493;
+}
+#btn2:focus {
+  border: 1.5px solid #c796da;
+  outline: none;
+}
+
+#fgt {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  font-weight: bold;
+}
+#fgt a {
+  color: #828282;
+}
+#fgt a:hover {
+  color: #bb6bd9;
+}
+#orLine {
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 550;
+  color: #4f4f4f;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 15px;
+  letter-spacing: 0.0357143em;
+}
+
+#yy {
+  padding-top: 50px;
+  color: #828282;
+  text-align: center;
+}
+
+.signuptxt {
+  font-size: 16px;
+  color: #9846b7;
+  padding: 5px;
+  border-bottom: 0.5px solid #bb6bd9;
+}
+
+/*** Media Quieries **/
+
+@media screen and (max-width: 780px) {
+  .container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    width: 450px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html,
+  body {
+    background-color: #fafafa;
+  }
+  form {
+    background-color: #fafafa;
+  }
+  .container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 20px;
+    box-shadow: none;
+    margin-top: 20px;
+  }
+  button {
+    width: 240px;
+  }
+}
